@@ -8,3 +8,8 @@ G:\Study\DesignPatern\DesignPattern\obj\Debug\DesignPattern.pdb
 G:\Study\DesignPatern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
 G:\Study\DesignPatern\DesignPattern\bin\Debug\DesignPattern.exe
 G:\Study\DesignPatern\DesignPattern\bin\Debug\DesignPattern.pdb
+G:\Git\DesignPattern\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+G:\Git\DesignPattern\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
+G:\Git\DesignPattern\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+G:\Git\DesignPattern\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+G:\Git\DesignPattern\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache

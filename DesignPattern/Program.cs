@@ -31,7 +31,11 @@ namespace DesignPattern
             //RunDecorator();
             //RunDecoratorRealWorld();
             //RunFacade();
-            RunFacadeRealWorld();
+            //RunFacadeRealWorld();
+            //RunFlyWeight();
+            //RunFlyWeightRealWorld();
+            //RunProxy();
+            RunProxyRealWorld();
 
             // Wait for user input
             Console.ReadKey();
@@ -462,20 +466,63 @@ namespace DesignPattern
 
         static void RunFlyWeight()
         {
+            // 享元模式更在于对象的重复利用 对象可以存储在内存中 或其他地方
+            // Arbitrary extrinsic state
+            int extrinsicstate = 22;
 
+            FlyweightFactory factory = new FlyweightFactory();
+
+            // Work with different flyweight instances
+            Flyweight fx = factory.GetFlyweight("X");
+            fx.Operation(--extrinsicstate);
+
+            Flyweight fy = factory.GetFlyweight("Y");
+            fy.Operation(--extrinsicstate);
+
+            Flyweight fz = factory.GetFlyweight("Z");
+            fz.Operation(--extrinsicstate);
+
+            UnsharedConcreteFlyweight fu = new
+              UnsharedConcreteFlyweight();
+
+            fu.Operation(--extrinsicstate);
         }
         static void RunFlyWeightRealWorld()
         {
+            // Build a document with text
+            string document = "AAZZBBZB";
+            char[] chars = document.ToCharArray();
 
+            CharacterFactory factory = new CharacterFactory();
+
+            // extrinsic state
+            int pointSize = 10;
+
+            // For each character use a flyweight object
+            foreach (char c in chars)
+            {
+                pointSize++;
+                Character character = factory.GetCharacter(c);
+                character.Display(pointSize);
+            }
         }
 
         static void RunProxy()
         {
-
+            // 代理和适配的区别 是都可以直接访问对象 
+            Proxy proxy = new Proxy();
+            proxy.Request();
         }
         static void RunProxyRealWorld()
         {
+            // Create math proxy
+            MathProxy proxy = new MathProxy();
 
+            // Do the math
+            Console.WriteLine("4 + 2 = " + proxy.Add(4, 2));
+            Console.WriteLine("4 - 2 = " + proxy.Sub(4, 2));
+            Console.WriteLine("4 * 2 = " + proxy.Mul(4, 2));
+            Console.WriteLine("4 / 2 = " + proxy.Div(4, 2));
         }
 
         #endregion

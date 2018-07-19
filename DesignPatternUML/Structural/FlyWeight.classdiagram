@@ -72,40 +72,160 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="2a62c09d-3702-443d-919f-fe73f1ab9d3f">
-      <profileInstance Id="0b5052c5-6ed5-4072-93d9-d49dba5ff2cf" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="5c2a1446-507d-4f6e-b2b5-cce1b7553208">
-      <profileInstance Id="6ddf1464-ffac-468a-be6f-76475635169c" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="cd658d47-5bc4-4fae-8188-2e542a9d65dc">
-      <profileInstance Id="8e82dea3-f194-485f-a09d-9e8758cacd99" name="CSharpProfile">
-        <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
-      </profileInstance>
-      <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="9ce034b8-55b3-425c-8415-09bfa0694bd1">
-      <profileInstance Id="c989c4c5-fa8b-4a9c-8263-771719ae26cb" name="TextTemplateBindings">
-        <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
-      </profileInstance>
-      <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="fcb2bd88-7dc9-4624-ae3c-8f23b36f1d66" name="FlyWeight" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="0988fa40-8da5-40dd-9b38-ef028a2a7631" />
+        <ownedOperationsInternal>
+          <operation Id="883b8a9a-9b93-4be8-a8df-03cd187dd8bf" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="147815fb-8293-4f4e-9aec-3bf5958e289a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="01a43f7f-035d-4045-b740-aa06719972e3" name="UnSharedConreteFlyWeight" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="79aa2ed1-0fb8-463a-8b3f-e4de637df1ce" />
+        <generalsInternal>
+          <generalization Id="3fe75e92-ce0c-42d1-9002-ec876b1a6f11" isSubstitutable="false">
+            <classMoniker Id="fcb2bd88-7dc9-4624-ae3c-8f23b36f1d66" LastKnownName="FlyWeight" />
+            <elementDefinition Id="eefa9b39-70c9-46bb-bdf5-c54a0aee5ede" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="30c8a5c4-92da-48db-8cef-99e1da4b2b24" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cfb4d61a-6b3e-4734-b1ad-1b614cf7acb1" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1a3927b3-7fec-4c53-9b38-590266f004c0" name="ConcreteFlyWeight" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bf5d285c-9657-487e-a469-36bb99b6987a" />
+        <generalsInternal>
+          <generalization Id="644a8416-a2de-47a7-b22b-b4d8e1f5dc10" isSubstitutable="false">
+            <classMoniker Id="fcb2bd88-7dc9-4624-ae3c-8f23b36f1d66" LastKnownName="FlyWeight" />
+            <elementDefinition Id="e02843f5-f2c0-43fb-ada0-a5cedd432f6b" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="11a9ba65-48fd-4af1-9ca8-aa63ed942bf7" name="Operation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d550d12f-5662-4c0c-8b1d-944183b4eb06" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2bab7c9d-e4a9-4fd9-93fc-9242d69353a9" name="FlyWeightFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6c0e3695-6132-412b-abfd-38d4d6863141" />
+        <targetEnds>
+          <association Id="22632b0f-5dd1-4091-b1d4-1910dfbcd6b0" isDerived="false" sourceEndRoleName="FlyWeightFactory" targetEndRoleName="FlyWeight" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fcb2bd88-7dc9-4624-ae3c-8f23b36f1d66" LastKnownName="FlyWeight" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f268d921-e916-4176-86fd-e2ecd753e214" name="FlyWeightFactory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c35b514a-a2ed-49bc-9ed5-f790c2bbeb72" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d3073928-6f9b-450f-ba4e-f75879d93678" name="FlyWeight" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bd19f3d1-6702-42d9-9324-e1f4d1c37a48" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f4344c69-2345-4f58-8656-d7aee354f913" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="c171e236-91ff-44d9-980a-66adcbf50c02" name="GetFlyWeight" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd782a4b-4e90-40b4-a729-20a13963de21" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="90cfbf8f-fc36-4fbe-b962-7b6898d19b1a" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d29abec1-0e6c-4903-86f5-1b60c5e1d302" />
+        <targetEnds>
+          <association Id="6136f877-64d5-49d6-86ef-8d5df339f015" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="FlyWeightFactory" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2bab7c9d-e4a9-4fd9-93fc-9242d69353a9" LastKnownName="FlyWeightFactory" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bfded070-dad9-45b1-8979-052f493308a0" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9a166cec-6769-4298-828b-111a136f9c42" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6b24f78a-2203-426b-97c8-00d36f5aa165" name="FlyWeightFactory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="beff3777-c59b-40f1-aef8-a76338f65569" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="01e175d1-fd0f-489c-b17c-c6b8aed71683" />
+          </association>
+          <association Id="b0d17a92-0fe3-4d7e-a49a-6681bf002345" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="UnSharedConreteFlyWeight" isLeaf="false" isAbstract="false">
+            <classMoniker Id="01a43f7f-035d-4045-b740-aa06719972e3" LastKnownName="UnSharedConreteFlyWeight" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1b8cb5ed-1414-4299-9cc5-d93cb9eac933" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2eea4bc1-5e7e-43be-b227-b2386da86c72" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7089f6b5-1c3a-4d08-82b6-2f9429563e54" name="UnSharedConreteFlyWeight" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9bbfd172-829d-443c-a641-be26e688f27f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="228189de-1681-4673-8f1e-37524c74c071" />
+          </association>
+          <association Id="31013907-e0b3-4832-9fdd-e258de87a31e" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="ConcreteFlyWeight" isLeaf="false" isAbstract="false">
+            <classMoniker Id="1a3927b3-7fec-4c53-9b38-590266f004c0" LastKnownName="ConcreteFlyWeight" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ec616dcf-c2b4-489c-a375-4b39bc7805a7" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="865642fa-d764-4f46-97f9-b03bb7e2438d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48956967-ea2a-44cb-8e62-17d9c9f1e56b" name="ConcreteFlyWeight" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ba26e276-900f-42d7-8ef3-d1e6330036c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7487b12b-9e5b-4f41-b34c-ad069437e2c0" />
+          </association>
+        </targetEnds>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="726b2c24-612c-4ab5-9fe5-5efe210042a8" name="DesignPattern">
     <elementDefinition Id="47992620-ffdb-42c8-a6ae-a09ab332bddc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="2a62c09d-3702-443d-919f-fe73f1ab9d3f">
+        <profileInstance Id="0b5052c5-6ed5-4072-93d9-d49dba5ff2cf" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5c2a1446-507d-4f6e-b2b5-cce1b7553208">
+        <profileInstance Id="6ddf1464-ffac-468a-be6f-76475635169c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="cd658d47-5bc4-4fae-8188-2e542a9d65dc">
+        <profileInstance Id="8e82dea3-f194-485f-a09d-9e8758cacd99" name="CSharpProfile">
+          <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
+        </profileInstance>
+        <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="9ce034b8-55b3-425c-8415-09bfa0694bd1">
+        <profileInstance Id="c989c4c5-fa8b-4a9c-8263-771719ae26cb" name="TextTemplateBindings">
+          <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
+        </profileInstance>
+        <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
