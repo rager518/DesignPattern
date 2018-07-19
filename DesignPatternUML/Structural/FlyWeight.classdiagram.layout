@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FlyWeight">
+  <logicalClassDesignerModelMoniker Id="f991a80e-6196-45b5-b602-55e707c172db" />
+  <nestedChildShapes>
+    <classShape Id="8dfa96f4-7cdc-4c3d-b156-642e2b8324b9" absoluteBounds="2.625, 0.875, 1.5, 0.95263671875" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="fcb2bd88-7dc9-4624-ae3c-8f23b36f1d66" LastKnownName="FlyWeight" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="19f292b9-6bda-4345-b083-88d645e6594f" absoluteBounds="2.64, 1.2650000000000001, 1.4700000000000002, 0.226318359375" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="0278e5cc-51cd-4692-9ae6-2722baf86df2" absoluteBounds="2.64, 1.501318359375, 1.4700000000000002, 0.226318359375" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

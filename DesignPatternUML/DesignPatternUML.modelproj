@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c33cfa42-63ef-4bef-b20a-aed85ee5d7b6}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>DesignPatternUML</Name>
+    <RootNamespace>DesignPattern</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="Behavioral\ChainofResp.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\ChainofResp.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\ChainofResp.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Command.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Command.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Command.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Interpreter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Interpreter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Interpreter.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Iterator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Iterator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Iterator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Mediator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Mediator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Mediator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Memento.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Memento.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Memento.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Observer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Observer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Observer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\State.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\State.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\State.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Strategy.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Strategy.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Strategy.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\TemplateMethod.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\TemplateMethod.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\TemplateMethod.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Behavioral\Visitor.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behavioral\Visitor.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Behavioral\Visitor.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package_2120.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Adapter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Adapter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\Adapter.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Structural\Bridge.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Bridge.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\Bridge.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Structural\Composite.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Composite.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\Composite.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Structural\Decorator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Decorator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\Decorator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Structural\Facade.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Facade.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\Facade.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Structural\FlyWeight.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\FlyWeight.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\FlyWeight.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Structural\Proxy.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Structural\Proxy.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Structural\Proxy.classdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="Creational\AbstractFactory.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Creational\AbstractFactory.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Creational\AbstractFactory.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Creational\Builder.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Creational\Builder.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Creational\Builder.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Creational\FactoryMethod.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Creational\FactoryMethod.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Creational\FactoryMethod.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Creational\Prototype.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Creational\Prototype.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Creational\Prototype.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Creational\Singleton.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Creational\Singleton.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Creational\Singleton.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\DesignPattern.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Creational" />
+    <Folder Include="Behavioral" />
+    <Folder Include="Structural" />
+  </ItemGroup>
+</Project>

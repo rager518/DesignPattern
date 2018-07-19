@@ -1,0 +1,10 @@
+G:\Study\DesignPatern\DesignPatern\bin\Debug\DesignPattern.exe
+G:\Study\DesignPatern\DesignPatern\bin\Debug\DesignPattern.pdb
+G:\Study\DesignPatern\DesignPatern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
+G:\Study\DesignPatern\DesignPatern\obj\Debug\DesignPattern.exe
+G:\Study\DesignPatern\DesignPatern\obj\Debug\DesignPattern.pdb
+G:\Study\DesignPatern\DesignPattern\obj\Debug\DesignPattern.exe
+G:\Study\DesignPatern\DesignPattern\obj\Debug\DesignPattern.pdb
+G:\Study\DesignPatern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
+G:\Study\DesignPatern\DesignPattern\bin\Debug\DesignPattern.exe
+G:\Study\DesignPatern\DesignPattern\bin\Debug\DesignPattern.pdb

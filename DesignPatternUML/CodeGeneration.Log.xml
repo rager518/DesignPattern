@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="代码生成/文本转换记录">
+  <MessageClass Name="Message" Label="消息" Option="显示提供相关信息的消息" />
+  <MessageClass Name="Warning" Label="警告" Option="显示警告" />
+  <MessageClass Name="Error" Label="错误" Option="显示错误" />
+  <MessageClass Name="Property" Label="属性" Option="显示元数据" />
+  <MessageClass Name="Diagnostic" Label="消息" Option="显示诊断消息" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="High" Text="已启动代码生成或文本转换。" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="名称 = ClassTemplate" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="TemplateFilePath = D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2018-07-17T20:18:40" Importance="Medium" Text="DesignPattern 的文本模板绑定: “ClassTemplate”会将 ClassTemplate.t4 应用于: “DesignPattern::Client”-  (Class), “DesignPattern::AbstractProductA”-  (Class), “DesignPattern::AbstractFactory”-  (Class), “DesignPattern::ProductA1”-  (Class), “DesignPattern::ProductA2”-  (Class), “DesignPattern::ConcreteFactory1”-  (Class), “DesignPattern::ConcreteFactory2”-  (Class), “DesignPattern::AbstractProductB”-  (Class), “DesignPattern::ProductB1”-  (Class), “DesignPattern::ProductB2”-  (Class) " />
+  <Message Timestamp="2018-07-17T20:18:56" Importance="Medium" Text="新增项目: G:\Study\DesignPatern\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2018-07-17T20:18:56" Importance="Medium" Text="“DesignPattern::Client”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\Client.cs" />
+  <Message Timestamp="2018-07-17T20:18:56" Importance="Medium" Text="“DesignPattern::AbstractProductA”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\AbstractProductA.cs" />
+  <Message Timestamp="2018-07-17T20:18:57" Importance="Medium" Text="“DesignPattern::AbstractFactory”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\AbstractFactory.cs" />
+  <Message Timestamp="2018-07-17T20:18:57" Importance="Medium" Text="“DesignPattern::ProductA1”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\ProductA1.cs" />
+  <Message Timestamp="2018-07-17T20:18:57" Importance="Medium" Text="“DesignPattern::ProductA2”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\ProductA2.cs" />
+  <Message Timestamp="2018-07-17T20:18:57" Importance="Medium" Text="“DesignPattern::ConcreteFactory1”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\ConcreteFactory1.cs" />
+  <Message Timestamp="2018-07-17T20:18:57" Importance="Medium" Text="“DesignPattern::ConcreteFactory2”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\ConcreteFactory2.cs" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Medium" Text="“DesignPattern::AbstractProductB”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\AbstractProductB.cs" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Medium" Text="“DesignPattern::ProductB1”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\ProductB1.cs" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Medium" Text="“DesignPattern::ProductB2”-  (Class) : 成功(已创建文件) - G:\Study\DesignPatern\DesignPatternLib\GeneratedCode\ProductB2.cs" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="名称 = StructTemplate" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="覆盖 = True" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="ProjectPath = ..\DesignPatternLib\DesignPatternLib.csproj" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="TemplateFilePath = D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Medium" Text="DesignPattern 的文本模板绑定: “StructTemplate”会将 StructTemplate.t4 应用于: “DesignPattern::Client”-  (Class), “DesignPattern::AbstractProductA”-  (Class), “DesignPattern::AbstractFactory”-  (Class), “DesignPattern::ProductA1”-  (Class), “DesignPattern::ProductA2”-  (Class), “DesignPattern::ConcreteFactory1”-  (Class), “DesignPattern::ConcreteFactory2”-  (Class), “DesignPattern::AbstractProductB”-  (Class), “DesignPattern::ProductB1”-  (Class), “DesignPattern::ProductB2”-  (Class) " />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="“DesignPattern::Client”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="“DesignPattern::AbstractProductA”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="“DesignPattern::AbstractFactory”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="“DesignPattern::ProductA1”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="“DesignPattern::ProductA2”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:58" Importance="Diagnostic" Text="“DesignPattern::ConcreteFactory1”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::ConcreteFactory2”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::AbstractProductB”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::ProductB1”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::ProductB2”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="选定内容包含未绑定到模板的 13 元素。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Association):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Association):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“0b25b448-2d73-4b13-97a5-800dd0b18a4f”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“ac8c85a3-e79c-4fb2-8bc2-9f73d23128d5”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“d4ffe777-3fac-43ef-84cb-9b9e7262f3ec”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“90fdeb52-9397-4cc6-8dba-87818787138a”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Association):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Dependency):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Dependency):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“30e18e85-4e63-43d0-a218-baa8d4e5a85a”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“d767bdd5-2bb9-40c7-bea6-8d6d57054400”-  (Generalization):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Dependency):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="Diagnostic" Text="“DesignPattern::”-  (Dependency):  没有绑定的模板。" />
+  <Message Timestamp="2018-07-17T20:18:59" Importance="High" Text="代码生成完成。错误:  0。警告:  0。" />
+</Log>
