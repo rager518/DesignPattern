@@ -1,1 +1,187 @@
-﻿ 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="112c51c9-fcf8-456b-82a7-9176f0c00a13" name="Memento" linkedPackageId="05c0e14b-d6ec-4dd1-80b4-45e58a83285d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="cc772f3d-7e50-4e05-8992-7ff7f78503e5">
+      <elementDefinition Id="9ba3a98e-9161-4674-a8d2-3552e61c6a48" />
+      <body>State=m.GetState()</body>
+      <annotatedElements>
+        <classMoniker Id="0f6c198c-c22d-4565-a54e-c7473d0ea554" LastKnownName="Originator" />
+      </annotatedElements>
+    </comment>
+    <comment Id="9e7af102-7750-48a7-aa44-1246b517f7a9">
+      <elementDefinition Id="19a60b23-1845-421e-ac05-35660bbdcd65" />
+      <body>return new Memento(State)</body>
+      <annotatedElements>
+        <classMoniker Id="0f6c198c-c22d-4565-a54e-c7473d0ea554" LastKnownName="Originator" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="3564d66f-165a-4ce8-a1a8-79b94a837715" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="15e746f1-08bc-4837-bf97-42ff9c353ff5" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="47240679-2ffb-42f4-b2ce-3773f011ec44">
+          <propertyInstance Id="52899ae0-155e-4a2c-968e-d0b793e881f2" name="BaseName">
+            <elementDefinition Id="e5d9bbd7-62a7-46e3-8c28-0d9dff5a48bf" />
+          </propertyInstance>
+          <elementDefinition Id="b4990768-710f-45d2-920b-a44463878628" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d9be5477-d239-47e2-9f9d-acdd29aa160e">
+          <propertyInstance Id="251b21ae-86dc-4b6c-b298-3aae9e32764c" name="ClrAttributes">
+            <elementDefinition Id="c842e2f6-6cc7-4693-bad5-5d713811859b" />
+          </propertyInstance>
+          <elementDefinition Id="9a5e1c9e-57cf-45fe-ba4d-7befc12c68ee" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3d553c4b-86e2-467e-9c19-b3cc6eed9173">
+          <propertyInstance Id="98d882bb-8ce0-417e-ae16-62efd7480bda" name="Usings">
+            <elementDefinition Id="60a4dac7-8371-48df-b81f-0fe7c5534e5a" />
+          </propertyInstance>
+          <elementDefinition Id="4e5de8e8-fbba-4cd2-a511-1bcb86232fed" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="e9ae4539-7b54-43aa-a3e0-08bc67da2877" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="637efda5-cee3-41eb-9fc6-f83acaa92450" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="03891953-58f2-41ee-89f3-a454c30388d8">
+          <propertyInstance Id="f8727382-2f6b-489e-b5b5-d3eaeb64dea4" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="8e59948c-70eb-4f96-b982-0b043f921fa2" />
+          </propertyInstance>
+          <elementDefinition Id="9b420acd-8c1a-4874-802a-5dfafa292767" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="985ce4b5-5f40-477b-adcb-882a3bceebf9">
+          <propertyInstance Id="18712a2b-0a12-40e6-ae18-1d0558f7ca39" name="TemplateFilePath" value="ClassTemplate=D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="1fcd657b-304c-4366-895a-354c33eae87f" />
+          </propertyInstance>
+          <elementDefinition Id="53230fc9-159e-42a9-9469-f199672a5f16" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d8a4ef29-2328-4983-8919-1912803889e9">
+          <propertyInstance Id="cbc2d39a-ae7e-4aa3-ad53-17898939d756" name="ProjectPath" value="ClassTemplate=..\DesignPatternLib\DesignPatternLib.csproj|EnumTemplate=..\DesignPatternLib\DesignPatternLib.csproj|InterfaceTemplate=..\DesignPatternLib\DesignPatternLib.csproj|StructTemplate=..\DesignPatternLib\DesignPatternLib.csproj">
+            <elementDefinition Id="91029ddb-9c34-471f-888e-b2c7432bebef" />
+          </propertyInstance>
+          <elementDefinition Id="83e2599c-c6a3-47c8-ae7f-69e625ce38a9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fd93bac5-f886-4fb4-a5a9-626480fdde27">
+          <propertyInstance Id="4c19e5ec-c9a9-46b2-a7b2-011b95570947" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="44074619-5594-4600-a0d9-e593e7892b6a" />
+          </propertyInstance>
+          <elementDefinition Id="39086e01-cceb-499d-ae41-76eafe9de267" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5753173b-9639-4f20-9552-07ea90cab40e">
+          <propertyInstance Id="ba435033-36a5-48e2-ad9d-7eecf1a185bf" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="43da1914-693c-4689-bff0-6ba51b8d9ec2" />
+          </propertyInstance>
+          <elementDefinition Id="daad6a46-eea9-4f49-95bc-8960b830223d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b1c4b680-4aa0-4c12-8ef4-b17523ca6ed5">
+          <propertyInstance Id="de1ae920-e562-488f-b600-98f805120faa" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="afc0e0d3-f07b-4d10-bf37-03199d122e01" />
+          </propertyInstance>
+          <elementDefinition Id="cbda9852-c8da-4ac7-859e-74c604dde873" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="257e129d-e79d-4233-a6e2-d93b8221786b">
+          <propertyInstance Id="2cbb50dd-304d-4fe7-998e-6f3844033949" name="Parameters">
+            <elementDefinition Id="26388011-6271-4f3f-84f9-06b66f4afd71" />
+          </propertyInstance>
+          <elementDefinition Id="9b400521-8370-47dd-92cc-6a556ad0b4b1" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="410b570b-81c2-4d61-87a8-a7ef5d3270af">
+      <profileInstance Id="e6b5711b-f604-40ee-ac04-ec8d160c8d28" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f12a1276-0ad7-4348-953b-f264d3e1967a">
+      <profileInstance Id="4cf236cb-ea78-4e13-a709-cd7f0321a0a7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e59e3c09-86ec-4493-87d0-830ae28ab1f3">
+      <profileInstance Id="59815863-0013-4bf9-9f03-572ca5a258fd" name="CSharpProfile">
+        <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
+      </profileInstance>
+      <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5bdfbdf6-70eb-4b4a-928a-5d2cf1b6d4df">
+      <profileInstance Id="9277af50-ba93-4b31-9b48-40dca3093cd9" name="TextTemplateBindings">
+        <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
+      </profileInstance>
+      <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a61b6c7c-1baf-4946-80da-33c16b39a9e1" name="Memento" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6c59c471-c878-4298-80d8-8bad433955cb" />
+        <ownedAttributesInternal>
+          <property Id="f0f14c2a-a051-4b9f-9843-86c71cb1b15e" name="State" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="935e8039-1079-45a6-a506-ef6002cabfd1" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4017cb36-32cf-4601-b502-a793bd5c8ec4" name="GetState" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="898872d8-33f3-4936-98e7-b979ceadc663" />
+          </operation>
+          <operation Id="c5b5f286-4ebc-4b69-a184-e414ba430fbb" name="SetState" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="895e54f2-5c38-4700-9db8-daaa50abeb21" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0f6c198c-c22d-4565-a54e-c7473d0ea554" name="Originator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3ebc5cae-85b4-4c26-af2d-1f0f3010f542" />
+        <suppliersInternal>
+          <dependency Id="9172fca0-0371-4e83-a498-1d3846186c21">
+            <classMoniker Id="a61b6c7c-1baf-4946-80da-33c16b39a9e1" LastKnownName="Memento" />
+            <elementDefinition Id="23b48e9f-e87b-441d-99b5-5e515f5398d2" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="e99610fb-64a4-40a6-9058-d09c8eb17706" name="State" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1a33f45a-45ff-46e1-a0fc-29e64e146554" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="726b38a3-03af-4503-a287-56b7336b24c1" name="SetMemento" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="359d187a-45ab-47e4-80ff-d7907f1604c9" />
+          </operation>
+          <operation Id="00742c96-82eb-4fae-b6e6-36339d912094" name="CreateMemento" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="372a7000-8726-4986-b56e-e316bcc2d44f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="61c0a705-2ebc-47ee-beb1-be2cd1dab714" name="CareTaker" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7e40c609-c6fa-4714-a8b7-6f4e19406938" />
+        <targetEnds>
+          <association Id="5067fced-ccef-4318-8a1e-86d014b3495b" isDerived="false" sourceEndRoleName="CareTaker" targetEndRoleName="Memento" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a61b6c7c-1baf-4946-80da-33c16b39a9e1" LastKnownName="Memento" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7650b3b2-09a6-41b4-95e0-1d90e86812b0" name="CareTaker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f994551f-8eba-4637-a8db-2d8b29b068f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8cfff795-76c9-438f-afbb-077010b0cc06" name="Memento" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="946bc555-d354-404c-b1ce-d534195aaf36" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="804f7487-9de2-4013-8d8c-a76f29a15316" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="05c0e14b-d6ec-4dd1-80b4-45e58a83285d" name="DesignPattern">
+    <elementDefinition Id="47992620-ffdb-42c8-a6ae-a09ab332bddc" />
+  </package>
+</logicalClassDesignerModel>
