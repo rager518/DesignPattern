@@ -72,135 +72,33 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <packagedElements>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="cedd17e4-d378-4e0b-9a2f-aac06e02c3a0" name="Command" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="1facc4b4-0302-478a-8444-4babdfc2a356" />
-        <ownedOperationsInternal>
-          <operation Id="3bf60e2d-7db3-42e7-9f4a-d7d107a93248" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="5895b857-c8a4-414b-86e5-a846929bc6db" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="d8b438c1-6cb1-4125-8071-4ce1e4faa35d" name="ConcreteCommand" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="a8542edb-9751-43f4-a140-e7a09ccc8185" />
-        <targetEnds>
-          <association Id="2dca8638-a87b-4d81-b790-949e78ffb502" isDerived="false" sourceEndRoleName="ConcreteCommand" targetEndRoleName="Receiver" isLeaf="false" isAbstract="false">
-            <classMoniker Id="5e7ecf2d-5aa2-4c74-9b33-7e3152a65e96" LastKnownName="Receiver" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="3d5de25e-1d2b-4986-b3d9-c817c8b82e84" name="ConcreteCommand" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="be3b98ee-0143-450a-860f-fb41fddc35b1" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="4db02402-c6ff-4c88-974d-d57dbdb182c5" name="Receiver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="37795b80-0987-4a27-80fe-55b35009004a" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="226656f7-469d-4a21-b762-225ed7c675e1" />
-          </association>
-        </targetEnds>
-        <ownedOperationsInternal>
-          <operation Id="31f93f17-376f-4f7f-8bc1-050594600b52" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="6b86374f-218a-49f4-aa4d-46d756fa5915" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="be5340ae-7cdd-4447-ad7f-6027722ba193" name="Invoker" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="2f5885df-69fd-4b28-b8b6-9ed64ba9ebe9" />
-        <targetEnds>
-          <association Id="1ac54db2-94cc-4a1e-9b05-468d748cf23c" isDerived="false" sourceEndRoleName="Invoker" targetEndRoleName="Command" isLeaf="false" isAbstract="false">
-            <classMoniker Id="cedd17e4-d378-4e0b-9a2f-aac06e02c3a0" LastKnownName="Command" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="df388f27-1ba9-4f99-8352-b64c52d397ca" name="Invoker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="4bca6b7a-2c5a-4dc3-9eab-15de658ec07b" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="7daab763-1da1-43dc-b1cd-86707e62ebe3" name="Command" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="aad2a1a8-4dc5-430b-bbd9-0d41c9c411cb" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="5d7adcb4-09ed-4ad0-9126-10694d1467ce" />
-          </association>
-        </targetEnds>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="5e7ecf2d-5aa2-4c74-9b33-7e3152a65e96" name="Receiver" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="534efcb9-e7b6-4a55-9915-8a54ff09f71d" />
-        <ownedOperationsInternal>
-          <operation Id="b9c9dd27-c291-43f0-8fbf-002b6802a48d" name="Action" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="0d03ca61-bf88-44c0-b11e-c05a3ee02b21" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="9e6a5bc8-983a-4d9c-8262-c6c5a9b7ac04" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="0a076349-6c18-4301-bc0d-63a98cf72256" />
-        <suppliersInternal>
-          <dependency Id="7e743500-725d-44bc-abfa-60298f432ca7">
-            <classMoniker Id="d8b438c1-6cb1-4125-8071-4ce1e4faa35d" LastKnownName="ConcreteCommand" />
-            <elementDefinition Id="449b7c47-0bfe-4277-ad5c-0b0257c1c328" />
-          </dependency>
-        </suppliersInternal>
-        <targetEnds>
-          <association Id="e47b1e15-2d40-4adc-968e-156044472341" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Receiver" isLeaf="false" isAbstract="false">
-            <classMoniker Id="5e7ecf2d-5aa2-4c74-9b33-7e3152a65e96" LastKnownName="Receiver" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="e89aa558-1881-4644-8493-4258f720bd98" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="6164a8f6-8703-4434-921c-7fdba94ba684" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="2bce0a0f-3a08-4d56-9486-00452e00e2f9" name="Receiver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="d5f569d6-9b6f-4b3e-b63d-5c07ab7f5b99" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="07caf461-4a3c-4959-b74c-50071591a6f3" />
-          </association>
-        </targetEnds>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-  </packagedElements>
+  <profileInstances>
+    <packageHasProfileInstances Id="974dca97-714a-4f83-b7c7-a653b894881c">
+      <profileInstance Id="451e0f83-55f5-41a3-ab64-8f33a9ab267f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="dfe9bc1a-9767-4b39-a416-39fcad81936b">
+      <profileInstance Id="f4b9a0a0-86c5-4432-8dd6-6eec4ccdd822" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5351ad9a-04c7-40de-8218-91f7ff35b35a">
+      <profileInstance Id="de034189-9adf-4b87-9383-ea46dd8c305b" name="CSharpProfile">
+        <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
+      </profileInstance>
+      <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="627a5acb-a27e-4fe2-9975-a299357b96e8">
+      <profileInstance Id="d759d803-ac72-4210-94be-a89f8a4a67c5" name="TextTemplateBindings">
+        <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
+      </profileInstance>
+      <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
+    </packageHasProfileInstances>
+  </profileInstances>
   <package Id="8d857a09-9dd8-4e0e-898c-59d48cab9458" name="DesignPattern">
     <elementDefinition Id="47992620-ffdb-42c8-a6ae-a09ab332bddc" />
-    <profileInstances>
-      <packageHasProfileInstances Id="974dca97-714a-4f83-b7c7-a653b894881c">
-        <profileInstance Id="451e0f83-55f5-41a3-ab64-8f33a9ab267f" name="StandardProfileL2">
-          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-        </profileInstance>
-        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="dfe9bc1a-9767-4b39-a416-39fcad81936b">
-        <profileInstance Id="f4b9a0a0-86c5-4432-8dd6-6eec4ccdd822" name="StandardProfileL3">
-          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-        </profileInstance>
-        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="5351ad9a-04c7-40de-8218-91f7ff35b35a">
-        <profileInstance Id="de034189-9adf-4b87-9383-ea46dd8c305b" name="CSharpProfile">
-          <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
-        </profileInstance>
-        <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="627a5acb-a27e-4fe2-9975-a299357b96e8">
-        <profileInstance Id="d759d803-ac72-4210-94be-a89f8a4a67c5" name="TextTemplateBindings">
-          <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
-        </profileInstance>
-        <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
-      </packageHasProfileInstances>
-    </profileInstances>
   </package>
 </logicalClassDesignerModel>

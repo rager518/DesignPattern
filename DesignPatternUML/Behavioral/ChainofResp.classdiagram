@@ -72,118 +72,33 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <packagedElements>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="bc6db590-02ed-42a0-bef3-0899110a40e9" name="Handler" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="ea2188bd-6894-43d8-89cc-ef7b4dcf34db" />
-        <ownedOperationsInternal>
-          <operation Id="039b465e-2505-4337-b43b-4e3e040421a1" name="HandleRequest" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="883b2d63-ca73-462b-b332-c4b248f42dd3" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="bffcbbc4-0b38-4390-b35c-4ec89930d02a" name="ConcreteHandler1" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="88624b63-6918-484d-a1be-4d4403848afe" />
-        <generalsInternal>
-          <generalization Id="4a2b916f-9171-427d-9633-c9af03b228d2" isSubstitutable="false">
-            <classMoniker Id="bc6db590-02ed-42a0-bef3-0899110a40e9" LastKnownName="Handler" />
-            <elementDefinition Id="0b652895-b48e-4c55-9d20-1a1a175b61f8" />
-          </generalization>
-        </generalsInternal>
-        <ownedOperationsInternal>
-          <operation Id="d38e061c-7a86-43ac-adce-72a41e0aca60" name="HandleRequest" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="1394a489-3ff1-4d52-a947-faf1bfed068f" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="ba17f8e5-d52e-4457-97c9-c54b592581b4" name="ConcreteHandler2" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="f30199ae-b65a-434c-9148-d788509769bf" />
-        <generalsInternal>
-          <generalization Id="9777156b-6dae-4757-b69a-644abf00057b" isSubstitutable="false">
-            <classMoniker Id="bc6db590-02ed-42a0-bef3-0899110a40e9" LastKnownName="Handler" />
-            <elementDefinition Id="7b2b78e8-d6c7-4444-bfbc-a29af9e97189" />
-          </generalization>
-        </generalsInternal>
-        <targetEnds>
-          <association Id="bf865a5b-2fae-4e68-b1d2-01535c1880e5" isDerived="false" sourceEndRoleName="ConcreteHandler2" targetEndRoleName="Handler" isLeaf="false" isAbstract="false">
-            <classMoniker Id="bc6db590-02ed-42a0-bef3-0899110a40e9" LastKnownName="Handler" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="01ae647f-2637-46b5-9a54-d2add51f7b48" name="ConcreteHandler2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="a03eed48-91e1-4148-a99d-079c7c8caca3" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="69deddb8-6094-43fe-ba2b-f0d1ca43a371" name="Handler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="57709660-5daa-4816-80ff-50fda7bd970e" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="27e645f6-e8c2-4e44-b1b8-38d4d40a8fda" />
-          </association>
-        </targetEnds>
-        <ownedOperationsInternal>
-          <operation Id="ea620022-0b4f-4858-8465-199567c10ffa" name="HandleRequest" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="5bf82f9b-16d9-4fe8-bf8f-14089451d5f8" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="09ca8b0f-5e59-453c-817e-1566eae910a0" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="35fc7936-84ec-4252-9d24-e7a38cd5a2d3" />
-        <targetEnds>
-          <association Id="23e97ee4-0733-4fba-98a8-b07ab1db0f45" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Handler" isLeaf="false" isAbstract="false">
-            <classMoniker Id="bc6db590-02ed-42a0-bef3-0899110a40e9" LastKnownName="Handler" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="956d1bd4-8ad6-4e15-8e87-238e70756649" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="90b3cbf3-ced8-414b-b9d9-c7484212c4e7" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="f4e3cd10-d8d6-498c-b929-18fbe3609d59" name="Handler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="5b1fff8e-9f93-4ddd-a86b-2d979d342527" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="009a97da-a3d9-43d1-8220-cffe705f583d" />
-          </association>
-        </targetEnds>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-  </packagedElements>
+  <profileInstances>
+    <packageHasProfileInstances Id="6739cb09-ff8b-4047-a48b-31a2c31d7e53">
+      <profileInstance Id="13deba3a-557c-4ef1-94a0-65c34b62daad" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a2b60207-ed3e-496f-9c50-24d58ab6f35a">
+      <profileInstance Id="ee3650c3-497f-43a9-ae75-053dbf316774" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3cab9b85-01d9-4a55-b74b-a96f9bf058cd">
+      <profileInstance Id="de44dbbe-81b2-4951-829e-3c1125bda46e" name="CSharpProfile">
+        <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
+      </profileInstance>
+      <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d939ad5c-0a6e-4641-af48-30504b605dca">
+      <profileInstance Id="f26ac2d7-5f9c-4e6e-8d4d-5fc3a653276c" name="TextTemplateBindings">
+        <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
+      </profileInstance>
+      <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
+    </packageHasProfileInstances>
+  </profileInstances>
   <package Id="0a282796-5301-49f3-9a9c-76e48f3a2305" name="DesignPattern">
     <elementDefinition Id="47992620-ffdb-42c8-a6ae-a09ab332bddc" />
-    <profileInstances>
-      <packageHasProfileInstances Id="6739cb09-ff8b-4047-a48b-31a2c31d7e53">
-        <profileInstance Id="13deba3a-557c-4ef1-94a0-65c34b62daad" name="StandardProfileL2">
-          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-        </profileInstance>
-        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="a2b60207-ed3e-496f-9c50-24d58ab6f35a">
-        <profileInstance Id="ee3650c3-497f-43a9-ae75-053dbf316774" name="StandardProfileL3">
-          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-        </profileInstance>
-        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="3cab9b85-01d9-4a55-b74b-a96f9bf058cd">
-        <profileInstance Id="de44dbbe-81b2-4951-829e-3c1125bda46e" name="CSharpProfile">
-          <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
-        </profileInstance>
-        <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="d939ad5c-0a6e-4641-af48-30504b605dca">
-        <profileInstance Id="f26ac2d7-5f9c-4e6e-8d4d-5fc3a653276c" name="TextTemplateBindings">
-          <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
-        </profileInstance>
-        <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
-      </packageHasProfileInstances>
-    </profileInstances>
   </package>
 </logicalClassDesignerModel>

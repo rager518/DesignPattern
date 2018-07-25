@@ -72,196 +72,33 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <packagedElements>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="d83c6aa0-c21c-4f70-8fd9-6f984cf6fe74" name="Visitor" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="917014c0-b76b-4922-989f-b05a4771e595" />
-        <ownedOperationsInternal>
-          <operation Id="8693b10e-a697-4a91-9ad9-9cce4831ea94" name="VisitConcreteElementA" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="c1d0af77-3ae6-4ac2-b97b-ded674e656fe" />
-          </operation>
-          <operation Id="7ee62281-dd35-4301-9d97-63f4507a2a47" name="VisitConcreteElementB" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="7dfb6d3d-93d0-4a66-9ffc-def3855bc7c1" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="92890d78-e430-48fe-9439-3b34a050ecc8" name="ConcreteVisitor1" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="0851ae1c-b30e-4e6d-b746-88c2d0b8f68f" />
-        <generalsInternal>
-          <generalization Id="05edcd3d-d0a2-4824-88fd-b4ea701d8ce2" isSubstitutable="false">
-            <classMoniker Id="d83c6aa0-c21c-4f70-8fd9-6f984cf6fe74" LastKnownName="Visitor" />
-            <elementDefinition Id="297adc6e-de2e-4d4d-8bcd-98a99a2d0ad2" />
-          </generalization>
-        </generalsInternal>
-        <ownedOperationsInternal>
-          <operation Id="4a0c54b4-0cf1-46cc-8ff9-770034e425f2" name="VisitConcreteElementA" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="6635994f-564d-42a3-bfd0-15f5f7a61188" />
-          </operation>
-          <operation Id="7ccf9bb8-035a-4cf8-9ca7-a9c96f83d9a9" name="VisitConcreteElementB" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="db7c5dd3-b7e0-4aa8-bfa6-389507119b53" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="704347f7-b3c2-417b-be1b-8802ea899adc" name="ConcreteVisitor2" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="36c10b6e-891f-4430-adee-0b4f91204eca" />
-        <generalsInternal>
-          <generalization Id="9535365c-4a12-4321-930a-11e2db8e5f63" isSubstitutable="false">
-            <classMoniker Id="d83c6aa0-c21c-4f70-8fd9-6f984cf6fe74" LastKnownName="Visitor" />
-            <elementDefinition Id="e495918f-e8ac-4b62-a501-9f1ec1dcc013" />
-          </generalization>
-        </generalsInternal>
-        <ownedOperationsInternal>
-          <operation Id="52ea8e5a-e0ce-4a13-a714-75c79dc5ff29" name="VisitConcreteElementA" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="5b12c581-d0ac-482e-8f89-cc4a17b53254" />
-          </operation>
-          <operation Id="81f6f8e3-b457-4e33-9275-9d9c6a75ba4d" name="VisitConcreteElementB" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="b2498d8c-0d0d-40bf-899e-0dbc12e353f0" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="13e86319-0975-4357-b11a-74eea9ad2bb8" name="Element" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="7ebc10ea-7daf-4888-a0b4-adb404f97bf1" />
-        <ownedOperationsInternal>
-          <operation Id="18f39d7f-7c07-4a4b-8776-73656c46bf99" name="Accept" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="13233907-cd61-42cf-94ef-3028220018f6" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="60e2de54-cdfb-417b-8182-f4d43724fc27" name="ConcreteElementA" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="284b8e4c-86a6-416f-9413-451dc5bec3b9" />
-        <generalsInternal>
-          <generalization Id="90df3afb-ebb9-41fb-bec7-a50fa8ce9be0" isSubstitutable="false">
-            <classMoniker Id="13e86319-0975-4357-b11a-74eea9ad2bb8" LastKnownName="Element" />
-            <elementDefinition Id="e801d8cc-cb94-4972-8cf6-ac0cbede198b" />
-          </generalization>
-        </generalsInternal>
-        <ownedOperationsInternal>
-          <operation Id="7fcb7937-9eed-4bf1-a5d8-cc5d67f96929" name="Accept" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="072d3f46-a9f2-4e7d-875f-e34497d202d3" />
-          </operation>
-          <operation Id="4c7338f9-9f6b-44d6-b312-1cc740749660" name="OperationA" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="7f40f1f0-8fdc-4a17-b91c-eb921307a5f1" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="39801efd-1487-4f0a-a0e4-945db9721bf8" name="ConcreteElementB" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="8e5f4a7c-024b-402e-95ce-e064a72e7641" />
-        <generalsInternal>
-          <generalization Id="3cbb8984-66b7-4b4c-8539-34f61e6474b3" isSubstitutable="false">
-            <classMoniker Id="13e86319-0975-4357-b11a-74eea9ad2bb8" LastKnownName="Element" />
-            <elementDefinition Id="01340983-c2d7-4ef5-b7b0-80ec83f1e4b6" />
-          </generalization>
-        </generalsInternal>
-        <ownedOperationsInternal>
-          <operation Id="f41c56c9-26b7-494b-8642-e872f56d0924" name="Accept" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="ca73cf95-8095-44a3-8ad7-e93372579533" />
-          </operation>
-          <operation Id="037fd4f7-dd42-4cb7-97f5-d61e595810cc" name="OperationB" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="4fb3824e-3068-4e7f-bb10-239d771b5e16" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="a7f88733-94a3-4418-8b22-ed3010e57b33" name="ObjectStructure" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="d8bea5c6-b183-4f54-858b-f4798e29b674" />
-        <targetEnds>
-          <association Id="d629b115-9772-4de6-a496-a025be908602" isDerived="false" sourceEndRoleName="ObjectStructure" targetEndRoleName="Element" isLeaf="false" isAbstract="false">
-            <classMoniker Id="13e86319-0975-4357-b11a-74eea9ad2bb8" LastKnownName="Element" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="9c67c814-748a-4ae0-97e4-f32655f76f88" name="ObjectStructure" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="7bd77e81-03c6-48ea-bc10-50c031bb3f31" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="3149135c-8cf2-4679-b000-bb7675f5f761" name="Element" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="7dd3ed75-03e0-483e-aa62-5cbacbdf0332" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="02c960de-d756-4b7e-bef1-1caae22c6a26" />
-          </association>
-        </targetEnds>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="b26e33d3-17a8-4f6b-aefd-7e866e9dc49b" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="77d9f0c2-c32a-4fbf-afbf-89fa21df4428" />
-        <targetEnds>
-          <association Id="14222738-2d13-4850-9608-63e5589ea8d1" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Visitor" isLeaf="false" isAbstract="false">
-            <classMoniker Id="d83c6aa0-c21c-4f70-8fd9-6f984cf6fe74" LastKnownName="Visitor" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="0dc3a123-b9b4-4dda-966d-7dfd5562b960" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="be5ba475-d3cb-4e7c-83c1-9e307f82183b" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="b5a3dfc2-d610-4982-9ecb-f44bce7bad61" name="Visitor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="1f6e54d6-87d6-4bc9-a118-4d6671105f77" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="587fd583-226c-4ed9-90e5-2686f6fecb81" />
-          </association>
-          <association Id="2e6e0ecc-a61e-4228-a19c-fc847b1dad13" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="ObjectStructure" isLeaf="false" isAbstract="false">
-            <classMoniker Id="a7f88733-94a3-4418-8b22-ed3010e57b33" LastKnownName="ObjectStructure" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="702d1a44-14a0-4067-91d6-254515c3e9f7" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="152438a8-c387-4e18-a7bb-13c4118d177b" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="2c2be38d-a653-4a47-b3d7-d8453375ba47" name="ObjectStructure" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="0ad66bf0-92a0-42bb-97e1-01442d8d381f" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="2bde0347-8130-41dd-ae58-e2849c81dc5c" />
-          </association>
-        </targetEnds>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-  </packagedElements>
+  <profileInstances>
+    <packageHasProfileInstances Id="3e72667a-258c-4c4d-a4b9-6eae00801396">
+      <profileInstance Id="52106bd7-d8c6-4aa2-8f13-bc904af640e3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d79770b1-1e16-4f32-b264-3c61aa50bace">
+      <profileInstance Id="7e613827-48bf-47b6-92c8-b9d63edab7e8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="562d9f58-e619-4e82-a329-c6de37c41e07">
+      <profileInstance Id="0201f642-ede0-4293-b89b-2e544dfcc38d" name="CSharpProfile">
+        <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
+      </profileInstance>
+      <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b435b5a2-ebdb-4a59-a368-de12b78823bf">
+      <profileInstance Id="58ff5ecb-b095-440d-87ae-a48a544f59d3" name="TextTemplateBindings">
+        <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
+      </profileInstance>
+      <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
+    </packageHasProfileInstances>
+  </profileInstances>
   <package Id="e4647603-88f8-41a2-a7bd-6d23895c4c01" name="DesignPattern">
     <elementDefinition Id="47992620-ffdb-42c8-a6ae-a09ab332bddc" />
-    <profileInstances>
-      <packageHasProfileInstances Id="3e72667a-258c-4c4d-a4b9-6eae00801396">
-        <profileInstance Id="52106bd7-d8c6-4aa2-8f13-bc904af640e3" name="StandardProfileL2">
-          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-        </profileInstance>
-        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="d79770b1-1e16-4f32-b264-3c61aa50bace">
-        <profileInstance Id="7e613827-48bf-47b6-92c8-b9d63edab7e8" name="StandardProfileL3">
-          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-        </profileInstance>
-        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="562d9f58-e619-4e82-a329-c6de37c41e07">
-        <profileInstance Id="0201f642-ede0-4293-b89b-2e544dfcc38d" name="CSharpProfile">
-          <elementDefinition Id="f40a6043-25fc-4f0d-83ea-bf9a1980c4aa" />
-        </profileInstance>
-        <elementDefinition Id="6b17b8ec-0d21-46e8-8fc8-d0d025a03651" />
-      </packageHasProfileInstances>
-      <packageHasProfileInstances Id="b435b5a2-ebdb-4a59-a368-de12b78823bf">
-        <profileInstance Id="58ff5ecb-b095-440d-87ae-a48a544f59d3" name="TextTemplateBindings">
-          <elementDefinition Id="dfdfb365-8504-4d66-926e-0e97dba132ab" />
-        </profileInstance>
-        <elementDefinition Id="4a7af905-e760-4e10-9ac1-8beb57d1c427" />
-      </packageHasProfileInstances>
-    </profileInstances>
   </package>
 </logicalClassDesignerModel>
